@@ -130,7 +130,15 @@ div[data-key-row="4"][data-key-col="5"]{--key-background-color: var(--corazon);}
 div[data-key-row="4"][data-key-col="2"] ._2KhPXikozxMpbIRo_6jPxW.ia41Q17gwzFVtCRdemWuj,
 /* Barra de espacio especial para los stickers */
 div[data-key-row="4"][data-key-col="1"] ._2KhPXikozxMpbIRo_6jPxW.ia41Q17gwzFVtCRdemWuj {
-    background-image: url('https://raw.githubusercontent.com/SomePotato/UmenoKeyboard/8e7d3c93f2faf481d27532d8a291a91fde3ea2d5/media/umegaeUmeno_logo.svg');
+    background-image: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/bb963b270638dd2c91eef9e7c9669cfd83074008/media/kanjisBochu.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+div[data-key-row="0"][data-key-col="13"] ._2KhPXikozxMpbIRo_6jPxW.ia41Q17gwzFVtCRdemWuj {
+    background-image: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/bb963b270638dd2c91eef9e7c9669cfd83074008/media/logoBochu.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
