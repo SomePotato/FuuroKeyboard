@@ -8,6 +8,13 @@
   "inject": {
     "bochuKeyboard.css": ["bigpicture", "QuickAccess", "MainMenu"]
   },
-  "patches": {},
+  "patches": {
+    "BackgroundImg":{
+        "default": "fuuro1",
+        "fuuro1": {"bgImgVars/bochu1.css": ["bigpicture", "QuickAccess", "MainMenu"]},
+        "fuuro2": {"bgImgVars/bochu2.css": ["bigpicture", "QuickAccess", "MainMenu"]},
+        "fuuro3": {"bgImgVars/bochu3.css": ["bigpicture", "QuickAccess", "MainMenu"]}
+    }
+  },
   "components": []
 }

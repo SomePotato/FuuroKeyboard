@@ -15,26 +15,26 @@
   --sdkb-key-bg-hover: #c9ca27ff;
   --sdkb-key-bg-pressed: #dfe05fff;
 
-  --sdkb-key-border-color: #2b2d3a;
-  --sdkb-key-border-color-active: #3c3f52;
+  --sdkb-key-border-color: #650000ff;
+  --sdkb-key-border-color-active: #6f4a4aff;
 
-  --sdkb-key-text-color: #402835ff;
+  --sdkb-key-text-color: #e69597ff;
+  --skdb-key-text-hover: #6f4a4aff;
   --sdkb-key-text-secondary: #945d7bff;
 
   /* Accent (e.g. Enter, active layout) */
-  --sdkb-accent: #e1afc5ff;
-  --sdkb-accent-text: #0b1015;
+  --sdkb-accent: #faf2f1ff;
+  --sdkb-accent-text: #e69597ff;
 
   --corazon: #d03648ff;
 
   /* ===== Shape / spacing ===== */
   --sdkb-key-radius: 5px;
   --sdkb-key-radius-special: 5px;
+
+  /* Imagen de fondo */
+  --bgImg: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/refs/heads/main/media/bochu1.png');
 }
-
-
-
-
 
  /* =====================================================
  * Map high-level sdkb variables to Steam's DefaultTheme
@@ -49,7 +49,7 @@
   --key-focused-background-color: var(--sdkb-key-bg-hover);
 
   --key-color: var(--sdkb-key-text-color);
-  --key-focused-color: var(--sdkb-key-text-color);
+  --key-focused-color: var(--skdb-key-text-hover);
 
   /* Function / special keys mapped to accent */
   --key-meta-background-color: var(--sdkb-accent);
@@ -112,19 +112,26 @@
   overflow: hidden;
 }
 
+/* Imagen de fondo */
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
+    background-repeat: no-repeat;
+    background-image: var(--bgImg);
+}
+
 /* Corazón */
-div[data-key-row="0"][data-key-col="10"]{--key-background-color: var(--corazon);}
-div[data-key-row="0"][data-key-col="12"]{--key-background-color: var(--corazon);}
-div[data-key-row="1"][data-key-col="9"]{--key-background-color: var(--corazon);}
-div[data-key-row="1"][data-key-col="10"]{--key-background-color: var(--corazon);}
-div[data-key-row="1"][data-key-col="11"]{--key-background-color: var(--corazon);}
-div[data-key-row="1"][data-key-col="12"]{--key-background-color: var(--corazon);}
-div[data-key-row="2"][data-key-col="9"]{--key-background-color: var(--corazon);}
-div[data-key-row="2"][data-key-col="10"]{--key-background-color: var(--corazon);}
-div[data-key-row="2"][data-key-col="11"]{--key-background-color: var(--corazon);}
-div[data-key-row="3"][data-key-col="10"]{--key-background-color: var(--corazon);}
-div[data-key-row="3"][data-key-col="11"]{--key-background-color: var(--corazon);}
-div[data-key-row="4"][data-key-col="5"]{--key-background-color: var(--corazon);}
+div[data-key-row="0"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="0"][data-key-col="12"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="1"][data-key-col="9"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="1"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="1"][data-key-col="11"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="1"][data-key-col="12"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="2"][data-key-col="9"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="2"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="2"][data-key-col="11"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="3"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="3"][data-key-col="11"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="4"][data-key-col="5"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
 
 /* Decorado de barra espaciadora */
 div[data-key-row="4"][data-key-col="2"] ._2KhPXikozxMpbIRo_6jPxW.ia41Q17gwzFVtCRdemWuj,
