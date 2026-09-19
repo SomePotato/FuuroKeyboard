@@ -1,0 +1,13 @@
+{
+  "name": "Fuuro Keyboard",
+  "author": "Not",
+  "version": "v1.0.0",
+  "description": "Keyboard based on my beautiful femboy wife Komagami Fuuro",
+  "target": "Keyboard",
+  "manifest_version": 8,
+  "inject": {
+    "bochuKeyboard.css": ["bigpicture", "QuickAccess", "MainMenu"]
+  },
+  "patches": {},
+  "components": []
+}
