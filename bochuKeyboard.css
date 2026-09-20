@@ -97,7 +97,7 @@
   --key-pointer-background-color: var(--sdkb-key-bg);
   --key-pointer-stroke-color: var(--sdkb-accent-text);
 
-  --key-deadkey-background-color: var(--sdkb-key-bg);
+  --key-deadkey-background-color: var(--corazon);
   --key-deadkeyinactive-color: var(--sdkb-key-text-secondary);
   --key-deadkeyactive-color: var(--sdkb-key-bg-pressed);
 }
@@ -126,29 +126,16 @@ div[data-key-row="1"][data-key-col="11"], div[data-key-row="1"][data-key-col="12
 div[data-key-row="2"][data-key-col="9"], div[data-key-row="2"][data-key-col="10"],
 div[data-key-row="2"][data-key-col="11"], div[data-key-row="3"][data-key-col="10"],
 div[data-key-row="3"][data-key-col="11"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-/*
-div[data-key-row="0"][data-key-col="12"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="1"][data-key-col="9"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="1"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="1"][data-key-col="11"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="1"][data-key-col="12"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="2"][data-key-col="9"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="2"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="2"][data-key-col="11"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="3"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="3"][data-key-col="11"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-div[data-key-row="4"][data-key-col="5"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
-*/
 
 /* Teclas especiales */
-._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_´,
-._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_¨,
-._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_\`,
-._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_\^,
-._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_5.KeyTheme_ArrowRight,
-._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_5.KeyTheme_ArrowDown,
-._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_3.KeyTheme_ArrowLeft,
-._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_3.KeyTheme_ArrowUp {
+._45rH7-kY4P2uVEb3TxZhm.DefaultTheme div._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_´,
+._45rH7-kY4P2uVEb3TxZhm.DefaultTheme div._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_¨,
+._45rH7-kY4P2uVEb3TxZhm.DefaultTheme div._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_\`,
+._45rH7-kY4P2uVEb3TxZhm.DefaultTheme div._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_\^,
+._45rH7-kY4P2uVEb3TxZhm.DefaultTheme div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_5.KeyTheme_ArrowRight,
+._45rH7-kY4P2uVEb3TxZhm.DefaultTheme div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_5.KeyTheme_ArrowDown,
+._45rH7-kY4P2uVEb3TxZhm.DefaultTheme div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_3.KeyTheme_ArrowLeft,
+._45rH7-kY4P2uVEb3TxZhm.DefaultTheme div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_3.KeyTheme_ArrowUp {
     background-color: var(--corazon);
     color: var(--sdkb-key-bg);
 }
