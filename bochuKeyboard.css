@@ -23,8 +23,8 @@
   --sdkb-key-text-secondary: #945d7bff;
 
   /* Accent (e.g. Enter, active layout) */
-  --sdkb-accent: #faf2f1ff;
-  --sdkb-accent-text: #e69597ff;
+  --sdkb-accent: #e69597ff;
+  --sdkb-accent-text: #faf2f1ff;
 
   --corazon: #d03648ff;
 
@@ -98,8 +98,8 @@
   --key-pointer-stroke-color: var(--sdkb-accent-text);
 
   --key-deadkey-background-color: var(--corazon);
-  --key-deadkeyinactive-color: var(--sdkb-key-text-secondary);
-  --key-deadkeyactive-color: var(--sdkb-key-bg-pressed);
+  --key-deadkeyinactive-color: var(--sdkb-key-bg);
+  --key-deadkeyactive-color: var(--sdkb-key-bg);
 }
 
 /* =====================================================
@@ -113,8 +113,7 @@
 }
 
 /* Imagen de fondo */
-
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
+._45rH7-kY4P2uVEb3TxZhm.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
     background-repeat: no-repeat;
     background-image: var(--bgImg);
 }
@@ -126,6 +125,9 @@ div[data-key-row="1"][data-key-col="11"], div[data-key-row="1"][data-key-col="12
 div[data-key-row="2"][data-key-col="9"], div[data-key-row="2"][data-key-col="10"],
 div[data-key-row="2"][data-key-col="11"], div[data-key-row="3"][data-key-col="10"],
 div[data-key-row="3"][data-key-col="11"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+
+
+
 
 /* Teclas especiales */
 ._45rH7-kY4P2uVEb3TxZhm.DefaultTheme div._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_´,
