@@ -29,8 +29,8 @@
   --corazon: #d03648ff;
 
   /* ===== Shape / spacing ===== */
-  --sdkb-key-radius: 5px;
-  --sdkb-key-radius-special: 5px;
+  --sdkb-key-radius: 15px;
+  --sdkb-key-radius-special: 15px;
 
   /* Imagen de fondo */
   --bgImg: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/refs/heads/main/media/bochu1.png');
@@ -120,7 +120,13 @@
 }
 
 /* Corazón */
-div[data-key-row="0"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+div[data-key-row="0"][data-key-col="10"], div[data-key-row="0"][data-key-col="12"],
+div[data-key-row="1"][data-key-col="9"], div[data-key-row="1"][data-key-col="10"],
+div[data-key-row="1"][data-key-col="11"], div[data-key-row="1"][data-key-col="12"],
+div[data-key-row="2"][data-key-col="9"], div[data-key-row="2"][data-key-col="10"],
+div[data-key-row="2"][data-key-col="11"], div[data-key-row="3"][data-key-col="10"],
+div[data-key-row="3"][data-key-col="11"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+/*
 div[data-key-row="0"][data-key-col="12"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
 div[data-key-row="1"][data-key-col="9"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
 div[data-key-row="1"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
@@ -132,6 +138,20 @@ div[data-key-row="2"][data-key-col="11"]{--key-background-color: var(--corazon);
 div[data-key-row="3"][data-key-col="10"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
 div[data-key-row="3"][data-key-col="11"]{--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
 div[data-key-row="4"][data-key-col="5"] {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
+*/
+
+/* Teclas especiales */
+._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_´,
+._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_¨,
+._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_\`,
+._2KhPXikozxMpbIRo_6jPxW._3-nva9yng-7GkWY1R4M827.Col_11.KeyTheme_\^,
+._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_5.KeyTheme_ArrowRight,
+._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_5.KeyTheme_ArrowDown,
+._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_3.KeyTheme_ArrowLeft,
+._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_3.KeyTheme_ArrowUp {
+    background-color: var(--corazon);
+    color: var(--sdkb-key-bg);
+}
 
 /* Decorado de barra espaciadora */
 div[data-key-row="4"][data-key-col="2"] ._2KhPXikozxMpbIRo_6jPxW.ia41Q17gwzFVtCRdemWuj,
@@ -144,7 +164,7 @@ div[data-key-row="4"][data-key-col="1"] ._2KhPXikozxMpbIRo_6jPxW.ia41Q17gwzFVtCR
     background-blend-mode: darken;
 }
 
-div[data-key-row="0"][data-key-col="13"] ._2KhPXikozxMpbIRo_6jPxW.ia41Q17gwzFVtCRdemWuj {
+ ._2KhPXikozxMpbIRo_6jPxW._3LsB3VZBjMjAp0RCa_3MGS.Col_13.KeyTheme_Backspace {
     background-image: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/bb963b270638dd2c91eef9e7c9669cfd83074008/media/logoBochu.svg');
     background-position: center;
     background-size: contain;
