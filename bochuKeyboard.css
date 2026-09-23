@@ -161,10 +161,42 @@ div[data-key-row="4"][data-key-col="1"] ._2KhPXikozxMpbIRo_6jPxW.ia41Q17gwzFVtCR
     background-blend-mode: darken;
 }
 
-/*div[data-key-row="1"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._3GfcsK1T47BLa5UQ3e4Xh3.Col_0.KeyTheme_Tab{
+div[data-key-row="1"][data-key-col="1"] div._2KhPXikozxMpbIRo_6jPxW.Col_1.KeyTheme_q {
     background-image: var(--bgImg);
-    background-position-x: 5%;
-}*/
+    background-position-x: 84%;
+    background-position-y: 0%;
+}
+div[data-key-row="1"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._3GfcsK1T47BLa5UQ3e4Xh3.Col_0.KeyTheme_Tab {
+    background-image: var(--bgImg);
+    background-position-x: 36%;
+    background-position-y: 0%;
+}
+div[data-key-row="2"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW.NGv5FNsp6c4OnD0_KOiDl.Col_0.KeyTheme_CapsLock {
+    background-image: var(--bgImg);
+    background-position-x: 42%;
+    background-position-y: 21%;
+}
+div[data-key-row="2"][data-key-col="1"] div._2KhPXikozxMpbIRo_6jPxW.Col_1.KeyTheme_a{
+    background-image: var(--bgImg);
+    background-position-x: 100%;
+    background-position-y: 21%;
+}
+div[data-key-row="3"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._2ye7YjL-n6ql_6UPyf5ptv.Col_0.KeyTheme_Shift {
+    background-image: var(--bgImg);
+    background-position-x: 65%;
+    background-position-y: 41%;
+}
+div[data-key-row="4"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_0.KeyTheme_SwitchKeys_Steam {
+    background-image: var(--bgImg);
+    background-position-x: 38%;
+    background-position-y: 62%;
+}
+div[data-key-row="4"][data-key-col="1"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_1.KeyTheme_SwitchKeys_Layout {
+    background-image: var(--bgImg);
+    background-position-x: 100%;
+    background-position-y: 62%;
+}
+
 
 /* Estilos para el teclado de emojis interno de Steam */
     /*  Fondo donde se encuentran los stickers  */
