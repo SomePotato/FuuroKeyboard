@@ -1,3 +1,27 @@
 :root{
     --bgImg: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/refs/heads/main/media/bochu2.png');
+
+    /* Variables para el fondo en cada tecla */
+    --bgImg_emoji: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/refs/heads/main/media/bochu2/bochu2_emoji.png');
+    --bgImg_mayus: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/refs/heads/main/media/bochu2/bochu2_mayus.png');
+    --bgImg_q: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/refs/heads/main/media/bochu2/bochu2_q.png');
+    --bgImg_shift: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/refs/heads/main/media/bochu2/bochu2_shift.png');
+    --bgImg_tab: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/refs/heads/main/media/bochu2/bochu2_tab.png');
+}
+
+/* Decorado de las teclas del lado izquierdo */
+div[data-key-row="1"][data-key-col="1"] div._2KhPXikozxMpbIRo_6jPxW.Col_1.KeyTheme_q {
+    background-image: var(--bgImg_q);
+}
+div[data-key-row="1"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._3GfcsK1T47BLa5UQ3e4Xh3.Col_0.KeyTheme_Tab {
+    background-image: var(--bgImg_tab);
+}
+div[data-key-row="2"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW.NGv5FNsp6c4OnD0_KOiDl.Col_0.KeyTheme_CapsLock {
+    background-image: var(--bgImg_mayus);
+}
+div[data-key-row="3"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._2ye7YjL-n6ql_6UPyf5ptv.Col_0.KeyTheme_Shift {
+    background-image: var(--bgImg_shift);
+}
+div[data-key-row="4"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_0.KeyTheme_SwitchKeys_Steam {
+    background-image: var(--bgImg_emoji);
 }
