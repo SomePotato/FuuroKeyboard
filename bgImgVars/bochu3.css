@@ -14,13 +14,21 @@
 /* Decorado de las teclas del lado izquierdo */
 div[data-key-row="1"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._3GfcsK1T47BLa5UQ3e4Xh3.Col_0.KeyTheme_Tab {
     background-image: var(--bgImg_tab);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 div[data-key-row="2"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW.NGv5FNsp6c4OnD0_KOiDl.Col_0.KeyTheme_CapsLock {
     background-image: var(--bgImg_mayus);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 div[data-key-row="3"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._2ye7YjL-n6ql_6UPyf5ptv.Col_0.KeyTheme_Shift {
     background-image: var(--bgImg_shift);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 div[data-key-row="4"][data-key-col="0"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_0.KeyTheme_SwitchKeys_Steam {
     background-image: var(--bgImg_emoji);
+    background-repeat: no-repeat;
+    background-size: contain;
 }

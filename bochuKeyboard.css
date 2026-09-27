@@ -121,8 +121,7 @@ div[data-key-row="1"][data-key-col="9"], div[data-key-row="1"][data-key-col="10"
 div[data-key-row="1"][data-key-col="11"], div[data-key-row="1"][data-key-col="12"],
 div[data-key-row="2"][data-key-col="9"], div[data-key-row="2"][data-key-col="10"],
 div[data-key-row="2"][data-key-col="11"], div[data-key-row="3"][data-key-col="10"],
-div[data-key-row="3"][data-key-col="11"], 
-div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_japanese._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="3"][data-key-col="9"]
+div[data-key-row="3"][data-key-col="11"]
 {--key-background-color: var(--corazon); --key-color: var(--sdkb-key-bg);}
 
 div[data-key-row="3"][data-key-col="0"]{
@@ -130,10 +129,15 @@ div[data-key-row="3"][data-key-col="0"]{
     --key-shift-color: var(--sdkb-key-text-color);
 }
 
-div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_japanese._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"][data-key-col="3"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_3.KeyTheme_ArrowLeft,
-div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_japanese._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"][data-key-col="3"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_3.KeyTheme_ArrowUp,
-div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_spanish._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"][data-key-col="5"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_5.KeyTheme_ArrowRight,
-div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_spanish._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"][data-key-col="5"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.Col_5.KeyTheme_ArrowDown
+div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_japanese._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="3"][data-key-col="9"] div._2KhPXikozxMpbIRo_6jPxW.Col_9.KeyTheme_\.{
+    background-color: var(--corazon);
+    color: var(--sdkb-key-bg);
+}
+
+div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_japanese._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowLeft,
+div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_japanese._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowUp,
+div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_spanish._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowRight,
+div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_spanish._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowDown
 {
     background-color: var(--corazon);
     color: var(--sdkb-key-bg);
@@ -151,7 +155,7 @@ div[data-key-row="4"][data-key-col="1"] ._2KhPXikozxMpbIRo_6jPxW.ia41Q17gwzFVtCR
 }
 
 /* Decorado de retroceso */
- ._2KhPXikozxMpbIRo_6jPxW._3LsB3VZBjMjAp0RCa_3MGS.Col_13.KeyTheme_Backspace {
+ ._2KhPXikozxMpbIRo_6jPxW._3LsB3VZBjMjAp0RCa_3MGS.KeyTheme_Backspace {
     background-image: url('https://raw.githubusercontent.com/SomePotato/FuuroKeyboard/ee161ade3543380bf5c68ad4521f46c0025b2b94/media/logoBochu.svg');
     background-position: center;
     background-size: contain;
