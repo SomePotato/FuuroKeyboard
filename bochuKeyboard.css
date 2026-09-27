@@ -129,13 +129,11 @@ div[data-key-row="3"][data-key-col="0"]{
     --key-shift-color: var(--sdkb-key-text-color);
 }
 
-div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_japanese._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowLeft,
-div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_japanese._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowUp,
-div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_spanish._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowRight,
-div#virtual\ keyboard div._45rH7-kY4P2uVEb3TxZhm.Layout_spanish._45rH7-kY4P2uVEb3TxZhm.DefaultTheme.Panel div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowDown
-{
-    background-color: var(--corazon) !important;
-    color: var(--sdkb-key-bg) !important;
+div.Layout_japanese div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowLeft,
+div.Layout_japanese div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowUp,
+div.Layout_spanish div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowDown,
+div.Layout_spanish div[data-key-row="4"] div._2KhPXikozxMpbIRo_6jPxW._1WbIjnypHqw8t8_NFQHPJr.KeyTheme_ArrowRight{
+    background-color: var(--corazon); 
 }
 
 /* Decorado de barra espaciadora */
